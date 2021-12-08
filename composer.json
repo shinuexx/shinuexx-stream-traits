@@ -1,0 +1,20 @@
+{
+    "name": "shinuexx/stream-traits",
+    "description": "Stream traits for PHP",
+    "type": "library",
+    "require": {
+        "shinuexx/generic-php": "dev-main"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShInUeXx",
+            "email": "shinuexx@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShInUeXx\\Streams\\": "./src/"
+        }
+    }
+}

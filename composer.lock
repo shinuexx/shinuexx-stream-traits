@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "071612dfa14a4c10951b146c51518953",
+    "packages": [
+        {
+            "name": "shinuexx/generic-php",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shinuexx/shinuexx-generic-php.git",
+                "reference": "47282a6108aa3fb1dbdfd92803fae49829ccea54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shinuexx/shinuexx-generic-php/zipball/47282a6108aa3fb1dbdfd92803fae49829ccea54",
+                "reference": "47282a6108aa3fb1dbdfd92803fae49829ccea54",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ShInUeXx\\Generic\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ShInUeXx",
+                    "email": "shinuexx@gmail.com"
+                }
+            ],
+            "description": "Generic classes, functions and interface for PHP",
+            "support": {
+                "issues": "https://github.com/shinuexx/shinuexx-generic-php/issues",
+                "source": "https://github.com/shinuexx/shinuexx-generic-php/tree/main"
+            },
+            "time": "2021-11-24T20:49:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "shinuexx/generic-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
